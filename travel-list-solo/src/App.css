@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 34.375rem;
+  height: 90vh;
+  margin: 2.5rem auto;
+  
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+
+
+/* ************ NAVBAR ********** */
+.navbar {
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  gap: 0.5em
+}
+
+.navbar > p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #FFFFFF;
+}
+
+
+/* ********** MAIN *********** */
+
+.card {
+  padding: 2em;
+  
+}
+
+.location--image{
+  width: 125px;
+  height: 168px;  
+  float: left;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+
+.location--dot{
+  color: #F55A5A;
+  font-size: 9.55px;
+  margin-right: 0.5em;
+  margin-top: 0.1em;
+}
+
+.map--info{
+  display: flex;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+.country {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+  margin-right: 0.4em;
+}
+
+.map--info > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918E9B;
+}
+
+.location--name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+  margin-bottom: .8em;
+}
+
+.card > h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+  margin-bottom: 0.8em;
+}
+
+
+.card > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  /* or 15px */
+
+  color: #2B283A;
+}
